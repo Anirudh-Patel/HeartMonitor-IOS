@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		00D759C72DFF853800E8D14A /* HeartMonitor WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 00D759A72DFF853600E8D14A /* HeartMonitor WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		00D759862DFF83A000E8D14A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,50 @@
 			remoteGlobalIDString = 00D759702DFF839F00E8D14A;
 			remoteInfo = HeartMonitor;
 		};
+		00D759B42DFF853800E8D14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D759692DFF839F00E8D14A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D759A62DFF853600E8D14A;
+			remoteInfo = "HeartMonitor WatchApp Watch App";
+		};
+		00D759BE2DFF853800E8D14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D759692DFF839F00E8D14A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D759A62DFF853600E8D14A;
+			remoteInfo = "HeartMonitor WatchApp Watch App";
+		};
+		00D759C52DFF853800E8D14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D759692DFF839F00E8D14A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D759A62DFF853600E8D14A;
+			remoteInfo = "HeartMonitor WatchApp Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00D759CB2DFF853800E8D14A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				00D759C72DFF853800E8D14A /* HeartMonitor WatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00D759712DFF839F00E8D14A /* HeartMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D759852DFF83A000E8D14A /* HeartMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D7598F2DFF83A000E8D14A /* HeartMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D759A72DFF853600E8D14A /* HeartMonitor WatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartMonitor WatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D759B32DFF853700E8D14A /* HeartMonitor WatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartMonitor WatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D759BD2DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeartMonitor WatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,6 +100,21 @@
 			path = HeartMonitorUITests;
 			sourceTree = "<group>";
 		};
+		00D759A82DFF853600E8D14A /* HeartMonitor WatchApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartMonitor WatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		00D759B62DFF853800E8D14A /* HeartMonitor WatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartMonitor WatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		00D759C02DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HeartMonitor WatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +139,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00D759A42DFF853600E8D14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759B02DFF853700E8D14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759BA2DFF853800E8D14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +169,9 @@
 				00D759732DFF839F00E8D14A /* HeartMonitor */,
 				00D759882DFF83A000E8D14A /* HeartMonitorTests */,
 				00D759922DFF83A000E8D14A /* HeartMonitorUITests */,
+				00D759A82DFF853600E8D14A /* HeartMonitor WatchApp Watch App */,
+				00D759B62DFF853800E8D14A /* HeartMonitor WatchApp Watch AppTests */,
+				00D759C02DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests */,
 				00D759722DFF839F00E8D14A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +182,9 @@
 				00D759712DFF839F00E8D14A /* HeartMonitor.app */,
 				00D759852DFF83A000E8D14A /* HeartMonitorTests.xctest */,
 				00D7598F2DFF83A000E8D14A /* HeartMonitorUITests.xctest */,
+				00D759A72DFF853600E8D14A /* HeartMonitor WatchApp Watch App.app */,
+				00D759B32DFF853700E8D14A /* HeartMonitor WatchApp Watch AppTests.xctest */,
+				00D759BD2DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,10 +199,12 @@
 				00D7596D2DFF839F00E8D14A /* Sources */,
 				00D7596E2DFF839F00E8D14A /* Frameworks */,
 				00D7596F2DFF839F00E8D14A /* Resources */,
+				00D759CB2DFF853800E8D14A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00D759C62DFF853800E8D14A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				00D759732DFF839F00E8D14A /* HeartMonitor */,
@@ -176,6 +262,74 @@
 			productReference = 00D7598F2DFF83A000E8D14A /* HeartMonitorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		00D759A62DFF853600E8D14A /* HeartMonitor WatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D759C82DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch App" */;
+			buildPhases = (
+				00D759A32DFF853600E8D14A /* Sources */,
+				00D759A42DFF853600E8D14A /* Frameworks */,
+				00D759A52DFF853600E8D14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				00D759A82DFF853600E8D14A /* HeartMonitor WatchApp Watch App */,
+			);
+			name = "HeartMonitor WatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "HeartMonitor WatchApp Watch App";
+			productReference = 00D759A72DFF853600E8D14A /* HeartMonitor WatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00D759B22DFF853700E8D14A /* HeartMonitor WatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D759CC2DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch AppTests" */;
+			buildPhases = (
+				00D759AF2DFF853700E8D14A /* Sources */,
+				00D759B02DFF853700E8D14A /* Frameworks */,
+				00D759B12DFF853700E8D14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D759B52DFF853800E8D14A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00D759B62DFF853800E8D14A /* HeartMonitor WatchApp Watch AppTests */,
+			);
+			name = "HeartMonitor WatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "HeartMonitor WatchApp Watch AppTests";
+			productReference = 00D759B32DFF853700E8D14A /* HeartMonitor WatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00D759BC2DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D759CF2DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch AppUITests" */;
+			buildPhases = (
+				00D759B92DFF853800E8D14A /* Sources */,
+				00D759BA2DFF853800E8D14A /* Frameworks */,
+				00D759BB2DFF853800E8D14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D759BF2DFF853800E8D14A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00D759C02DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests */,
+			);
+			name = "HeartMonitor WatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "HeartMonitor WatchApp Watch AppUITests";
+			productReference = 00D759BD2DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +351,17 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 00D759702DFF839F00E8D14A;
 					};
+					00D759A62DFF853600E8D14A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					00D759B22DFF853700E8D14A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 00D759A62DFF853600E8D14A;
+					};
+					00D759BC2DFF853800E8D14A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 00D759A62DFF853600E8D14A;
+					};
 				};
 			};
 			buildConfigurationList = 00D7596C2DFF839F00E8D14A /* Build configuration list for PBXProject "HeartMonitor" */;
@@ -216,6 +381,9 @@
 				00D759702DFF839F00E8D14A /* HeartMonitor */,
 				00D759842DFF83A000E8D14A /* HeartMonitorTests */,
 				00D7598E2DFF83A000E8D14A /* HeartMonitorUITests */,
+				00D759A62DFF853600E8D14A /* HeartMonitor WatchApp Watch App */,
+				00D759B22DFF853700E8D14A /* HeartMonitor WatchApp Watch AppTests */,
+				00D759BC2DFF853800E8D14A /* HeartMonitor WatchApp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +404,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		00D7598D2DFF83A000E8D14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759A52DFF853600E8D14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759B12DFF853700E8D14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759BB2DFF853800E8D14A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +455,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00D759A32DFF853600E8D14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759AF2DFF853700E8D14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D759B92DFF853800E8D14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +488,21 @@
 			isa = PBXTargetDependency;
 			target = 00D759702DFF839F00E8D14A /* HeartMonitor */;
 			targetProxy = 00D759902DFF83A000E8D14A /* PBXContainerItemProxy */;
+		};
+		00D759B52DFF853800E8D14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D759A62DFF853600E8D14A /* HeartMonitor WatchApp Watch App */;
+			targetProxy = 00D759B42DFF853800E8D14A /* PBXContainerItemProxy */;
+		};
+		00D759BF2DFF853800E8D14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D759A62DFF853600E8D14A /* HeartMonitor WatchApp Watch App */;
+			targetProxy = 00D759BE2DFF853800E8D14A /* PBXContainerItemProxy */;
+		};
+		00D759C62DFF853800E8D14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D759A62DFF853600E8D14A /* HeartMonitor WatchApp Watch App */;
+			targetProxy = 00D759C52DFF853800E8D14A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,6 +752,136 @@
 			};
 			name = Release;
 		};
+		00D759C92DFF853800E8D14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HeartMonitor WatchApp";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.anirudhpatel.HeartMonitor;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anirudhpatel.HeartMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		00D759CA2DFF853800E8D14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HeartMonitor WatchApp";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.anirudhpatel.HeartMonitor;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anirudhpatel.HeartMonitor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		00D759CD2DFF853800E8D14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudhpatel.HeartMonitor-WatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartMonitor WatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartMonitor WatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		00D759CE2DFF853800E8D14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudhpatel.HeartMonitor-WatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartMonitor WatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartMonitor WatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		00D759D02DFF853800E8D14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudhpatel.HeartMonitor-WatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartMonitor WatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		00D759D12DFF853800E8D14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anirudhpatel.HeartMonitor-WatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HeartMonitor WatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,6 +917,33 @@
 			buildConfigurations = (
 				00D759A12DFF83A000E8D14A /* Debug */,
 				00D759A22DFF83A000E8D14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D759C82DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D759C92DFF853800E8D14A /* Debug */,
+				00D759CA2DFF853800E8D14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D759CC2DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D759CD2DFF853800E8D14A /* Debug */,
+				00D759CE2DFF853800E8D14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D759CF2DFF853800E8D14A /* Build configuration list for PBXNativeTarget "HeartMonitor WatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D759D02DFF853800E8D14A /* Debug */,
+				00D759D12DFF853800E8D14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
